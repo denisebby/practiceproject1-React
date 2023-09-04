@@ -1,0 +1,70 @@
+.featurecard-container {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.featurecard-container1 {
+  flex: 0 0 auto;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-gray-100);
+  border-width: 1px;
+  margin-right: 1rem;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.featurecard-image {
+  width: 100%;
+  height: 76px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.featurecard-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.featurecard-text {
+  padding-bottom: 0.25rem;
+}
+.featurecard-root-class-name {
+  margin-right: 10rem;
+}
+.featurecard-root-class-name1 {
+  margin-right: 15rem;
+}
+
+
+@media(max-width: 767px) {
+  .featurecard-container {
+    width: 100%;
+  }
+  .featurecard-root-class-name {
+    align-self: center;
+    margin-right: 0rem;
+  }
+  .featurecard-root-class-name1 {
+    position: static;
+    align-self: center;
+    margin-right: 0rem;
+  }
+  .featurecard-root-class-name2 {
+    left: 0px;
+    bottom: 0px;
+    position: static;
+    align-self: center;
+  }
+  .featurecard-root-class-name3 {
+    align-self: center;
+  }
+}
