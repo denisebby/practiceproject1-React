@@ -25,6 +25,10 @@ for a service that analyzes parking lot data across the U.S.
 Example screenshots:
 
 Desktop: 
+
 ![Alt text](docs_imgs/desktop_view.png)
+
+
 Mobile:
+
 ![Alt text](docs_imgs/mobile_view.png)
